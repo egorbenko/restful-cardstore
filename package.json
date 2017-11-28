@@ -1,0 +1,23 @@
+{
+  "name": "restful-cardstore",
+  "version": "1.0.0",
+  "description": "RESTful implementation of BusinessNetworkCardStore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HealthChainRx/restful-cardstore.git"
+  },
+  "author": "Efim Gorbenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HealthChainRx/restful-cardstore/issues"
+  },
+  "homepage": "https://github.com/HealthChainRx/restful-cardstore#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "composer-common": "^0.16.0"
+  }
+}
