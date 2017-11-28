@@ -1,1 +1,1 @@
-module.exports.RestfulCardStore = require('./lib/restfulCardStore');
+module.exports = require('./lib/restfulCardStore');
