@@ -6,7 +6,7 @@ Usage:
   const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
   const RestfulCardStore = require('restful-cardstore')
 
-  let cardStore = new RestfulCardStore();
+  let cardStore = new RestfulCardStore('http://localhost:3000');
   let businessNetworkConnection = new BusinessNetworkConnection({ cardStore: cardStore });
   ```
 
@@ -14,7 +14,6 @@ Default options:
   ```javascript
   // default options
   let options = {
-    baseUrl: 'http://localhost:3000',
     getPath: '',
     putPath: '',
     hasPath: '',
