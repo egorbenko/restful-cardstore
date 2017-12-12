@@ -1,4 +1,4 @@
-# RESTful CardStore
+# RESTful CardStore (Usable but still WIP)
 RESTful implementation of BusinessNetworkCardStore
 
 Usage: 
